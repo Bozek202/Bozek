@@ -1,26 +1,22 @@
-body.glowne {
+body{
   background-color: #808080;
   padding-left: 20%;
   padding-right: 20%;
   margin: 50px;
 }
-h1.glowne {
+h1 {
   margin: 20px;
   text-align: center;
   font-size: 40pt;
   color: orange;
 }
-h3.glowne {
+h3 {
   color: orange;
 }
-hr.glowne {
-  background: orange;
-  color: orange;
-  background-color: orange;
-}
-table.glowne {
-  border: 1;
-  border-style: groove;
+table, td {
+  border: 2px;
+  border-style: solid;
+  border-collapse: collapse;
   border-color: pink;
 }
 A:active {
