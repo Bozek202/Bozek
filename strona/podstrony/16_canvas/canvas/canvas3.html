@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Canvas3</title>
+ <script type = "text/javascript">
+function setup() {
+var canvas = document.getElementById('myCanvas');
+if (canvas.getContext) { 
+var ctx = canvas.getContext('2d'); 
+}
+ctx.fillStyle = '#00ff00'; 
+ctx.fillRect(100,20,200,180); 
+ctx.strokeRect(20,50,50,40);
+ctx.clearRect(100,50,50,50); 
+}
+ </script>
+</head>
+<body onload = "setup();">
+<canvas id = "myCanvas" width = "200" height = "200"></canvas>
+
+</body> 
+</html>
