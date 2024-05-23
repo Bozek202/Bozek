@@ -1,4 +1,54 @@
-body.glowne {
+body {
   background-color: rgb(63, 63, 63);
-  margin: 50px;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin: 1%;
+}
+p {
+  text-align: center;
+}
+p.wyjscie {
+  text-align: left;
+}
+h1 {
+  margin: 2%;
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 333%;
+}
+h2.naglowek {
+  font-family: Arial;
+  font-size: 250%;
+  text-align: center;
+  color: white;
+}
+h3 {
+  font-family: Arial;
+  font-size: 150%;
+  text-align: left;
+  color: white;
+}
+hr {
+  background: orange;
+  background-color: orange;
+}
+table {
+  border: 1;
+  border-style: groove;
+  border-color: pink;
+}
+A:active {
+  color: green;
+}
+A:link {
+  color: aqua;
+}
+A:visited {
+  color: #1654ff;
+}
+A:hover {
+  color: blueviolet;
+  text-decoration: underline;
 }
