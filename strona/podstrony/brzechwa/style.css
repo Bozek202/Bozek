@@ -1,0 +1,46 @@
+body {
+  margin: 10%;
+  background: #808080;
+  color: white justify;
+}
+h1 {
+  color: white;
+}
+p {
+  color: white;
+}
+span {
+  color: blue;
+  font-weight: bold;
+}
+p.normalny {
+  font-family: Helvetica;
+  font-size: 10pt;
+}
+p.przypisy {
+  font-family: Helvetica;
+  font-size: 8pt;
+}
+p.uwagi {
+  font-family: Helvetica;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+A:active {
+  color: blue;
+}
+A:link {
+  color: black;
+}
+A:visited {
+  color: green;
+}
+A:hover {
+  color: red;
+  text-decoration: underline;
+}
+#ala {
+  font-size: 20pt;
+  color: green;
+}

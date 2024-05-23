@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>Canvas4</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script type="text/javascript">
+      function setup() {
+        var canvas = document.getElementById("myCanvas");
+        if (canvas.getContext) {
+          var ctx = canvas.getContext("2d");
+        }
+        ctx.arc(100, 100, 50, 0, Math.PI * 2, false);
+
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(80, 80, 6, 0, Math.PI * 2, false);
+        ctx.arc(120, 80, 6, 0, Math.PI * 2, false);
+        ctx.fill();
+        ctx.strokeStyle = "#ff00ff";
+        ctx.beginPath();
+        ctx.arc(100, 110, 20, Math.PI, 0, true);
+        ctx.stroke();
+      }
+    </script>
+  </head>
+  <body onload="setup();">
+    <canvas id="myCanvas" width="200" height="200"></canvas>
+  </body>
+</html>
